@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID"1ef0201c94e03ca96e784703fa9ac57c))
-API_HASH = getenv("API_HASH"17158309)
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
